@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    position: fixed;
+    width: 50;
+    height: 50;
+
+}
+.principal{
+    background: rgb(173, 173, 146);
+    display: inline-block;
+}
+#cabeza{
+    font-size: 1.8rem;
+    background: hotpink;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 8.1 rem;
+    padding: 2.8 rem;
+    border-radius: 2 rem;
+}
+
+#cuerpo{
+    font-size: 1.6 rem;
+    background: khaki;
+    display: inline-block;
+    
+    border: 0.2rem lawngreen solid;
+    padding: 6rem;
+    margin: 20%;
+    line-height: calc(1.7rem+20%);
+    border-radius: 2.6rem;
+}
